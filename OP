@@ -15,5 +15,5 @@ local GetService=  game:GetService("Players")
             task()
             wait()  
         end
-        wait(0,7)
+        wait(0.7)
     end
