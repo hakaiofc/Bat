@@ -9,11 +9,12 @@ local GetService=  game:GetService("Players")
     end
     
     
-    while true do
-        
-        for i = 1, 4 do
-            task()
-            wait()  
-        end
-        wait(0.7)
+while true do
+
+    for i = 1, 4 do
+        task()
+        wait()  
     end
+    wait(0.485)  
+end
+
