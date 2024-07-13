@@ -1,10 +1,9 @@
 ----GAMEPASS --BAT
 
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
+local ReplicatedStorage = game:GetService("Players")
 
 local function task()
-    local Event = ReplicatedStorage.Remotes.Bat.Attack
+    local Event = Players.LocalPlayer.Character.Bat.Attack
     Event:FireServer()
 end
 
