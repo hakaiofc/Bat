@@ -6,9 +6,6 @@ local function task()
     game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 end
 
-
-    
-    
 while true do
 
     for i = 1, 4 do
