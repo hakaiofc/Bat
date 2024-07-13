@@ -3,8 +3,7 @@
 local ReplicatedStorage = game:GetService("Players")
 
 local function task()
-    local Event = Players.LocalPlayer.Character.Bat.Attack
-    Event:FireServer()
+    game:GetService("Players").LocalPlayer.Character.Bat.Attack:FireServer()
 end
 
 
